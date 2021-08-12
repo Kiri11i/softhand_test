@@ -41,6 +41,7 @@ public class MessageAdapter extends ArrayAdapter<MessageFormat> {
             Log.i(MainActivity.TAG, "getView: " + message.getUniqueId() + " " + MainActivity.uniqueId);
 
 
+
             convertView = ((Activity) getContext()).getLayoutInflater().inflate(R.layout.my_message, parent, false);
             TextView messageText = convertView.findViewById(R.id.message_body);
             messageText.setText(message.getMessage());

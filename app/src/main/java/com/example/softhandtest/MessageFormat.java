@@ -4,6 +4,7 @@ public class MessageFormat {
 
     private String Username;
     private String Message;
+
     private String UniqueId;
 
     public MessageFormat(String uniqueId, String username, String message) {
